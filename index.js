@@ -9,6 +9,8 @@ let sampleRange = max - min
 let range = sampleRange/10
 const interval =(i)=>[min+(i-1)*range,min+i*range]
 const inRange = (i,val)=>val>=interval(i)[0] && val<interval(i)[1]
+console.log("min: ",min)
+console.log("max: ",max)
 for (let i=10;i>0;i--){
 //console.log(interval(i))
 //console.log(sample[0])
